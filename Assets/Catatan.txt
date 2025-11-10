@@ -1,0 +1,20 @@
+Ray interaction hanya digunakan untuk mengmilih objek
+Poke interaction dapat dilakukan pada UI
+direct interaction digunakan untuk melakikan puzzle
+
+ray interaction dapat digunakan untuk memilih huruf yang ada pada kuis yang tersebar diseleuruh istana	
+
+continous movement pada left
+
+teleport movement pada right ketika joystick kearah depan 
+jika joystick kearah samping dilakukan snap turn
+
+ketika teleport joystick dapat diputar untuk arah teleport
+
+
+TIDAK BISA MENGAMBIL APAPUN MENGGUNAKAN RAY
+
+
+TANTANGAN 
+HAND POSE DI PUTARAN
+INSPEKSI OBJECT DI VR

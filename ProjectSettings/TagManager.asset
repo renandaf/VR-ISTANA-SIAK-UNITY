@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Left Hand
+  - Right Hand
+  - Room 1
+  - Room 2
+  - Money
+  - Ticket
+  - Anchor
+  - Taman Depan Istana
+  - Jalan
+  - Ruang Depan
+  - Ruang Tengah
+  - Ruang Makan
+  - Ruang Timur
+  - Ruang Pertemuan
+  - Ruang Selatan
+  - Ruang Selatan LT2
+  - Lorong LT2
+  - Ruang Barat 1 LT2
+  - Ruang Barat 2 LT2
+  - Ruang Timur 1 LT2
+  - Ruang Timur 2 LT2
+  - Ruang Utara LT2
+  - Loket Tiket
+  - Pos Opas
+  - Istana Peraduan
+  - Pintu Masuk Istana
+  - Gerbang Masuk
+  - Kapal Kato
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Terrain
+  - Water
+  - UI
+  - Player
+  - LeftHand
+  - RightHand
+  - NonPhysicHand
+  - GrabObject
+  - PlayerHead
+  - Grabbing
+  - Grabbable
+  - Hand
+  - HandPlayer
+  - Inspect
+  - Marker
+  - Indoor
+  - Outdoor
+  - Komet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Gate
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

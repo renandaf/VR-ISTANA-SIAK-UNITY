@@ -1,0 +1,110 @@
+# ================================
+# UNITY PROJECT .GITATTRIBUTES
+# ================================
+# Use Git LFS for all binary assets
+# and keep text assets mergeable.
+# ================================
+# --- TEXT FILES (mergeable)
+*.cs           text diff=csharp
+*.shader       text
+*.cginc        text
+*.compute      text
+*.hlsl         text
+*.json         text
+*.xml          text
+*.yaml         text
+*.yml          text
+*.txt          text
+*.asmdef       text
+*.asmref       text
+*.log          text
+*.meta         text merge=union
+*.uxml         text
+*.uss          text
+*.ux           text
+*.rsp          text
+*.gradle       text
+*.manifest     text
+*.prototxt     text
+*.md           text
+*.py           text
+*.js           text
+*.ts           text
+*.html         text
+*.css          text
+# --- SCENES, PREFABS, MATERIALS, ANIMATIONS (binary)
+*.unity        filter=lfs diff=lfs merge=lfs -text
+*.prefab       filter=lfs diff=lfs merge=lfs -text
+*.mat          filter=lfs diff=lfs merge=lfs -text
+*.anim         filter=lfs diff=lfs merge=lfs -text
+*.controller   filter=lfs diff=lfs merge=lfs -text
+*.overrideController filter=lfs diff=lfs merge=lfs -text
+*.timeline     filter=lfs diff=lfs merge=lfs -text
+# --- TEXTURES & SPRITES
+*.png          filter=lfs diff=lfs merge=lfs -text
+*.jpg          filter=lfs diff=lfs merge=lfs -text
+*.jpeg         filter=lfs diff=lfs merge=lfs -text
+*.tga          filter=lfs diff=lfs merge=lfs -text
+*.psd          filter=lfs diff=lfs merge=lfs -text
+*.tif          filter=lfs diff=lfs merge=lfs -text
+*.tiff         filter=lfs diff=lfs merge=lfs -text
+*.bmp          filter=lfs diff=lfs merge=lfs -text
+*.hdr          filter=lfs diff=lfs merge=lfs -text
+*.exr          filter=lfs diff=lfs merge=lfs -text
+# --- 3D MODELS
+*.fbx          filter=lfs diff=lfs merge=lfs -text
+*.obj          filter=lfs diff=lfs merge=lfs -text
+*.blend        filter=lfs diff=lfs merge=lfs -text
+*.dae          filter=lfs diff=lfs merge=lfs -text
+*.3ds          filter=lfs diff=lfs merge=lfs -text
+*.max          filter=lfs diff=lfs merge=lfs -text
+# --- AUDIO FILES
+*.wav          filter=lfs diff=lfs merge=lfs -text
+*.mp3          filter=lfs diff=lfs merge=lfs -text
+*.ogg          filter=lfs diff=lfs merge=lfs -text
+*.aiff         filter=lfs diff=lfs merge=lfs -text
+*.flac         filter=lfs diff=lfs merge=lfs -text
+# --- VIDEO FILES
+*.mp4          filter=lfs diff=lfs merge=lfs -text
+*.mov          filter=lfs diff=lfs merge=lfs -text
+*.avi          filter=lfs diff=lfs merge=lfs -text
+*.webm         filter=lfs diff=lfs merge=lfs -text
+# --- UI / FONT ASSETS
+*.ttf          filter=lfs diff=lfs merge=lfs -text
+*.otf          filter=lfs diff=lfs merge=lfs -text
+*.fontsettings filter=lfs diff=lfs merge=lfs -text
+# --- PHYSICS / TERRAIN / LIGHTING
+*.physicMaterial filter=lfs diff=lfs merge=lfs -text
+*.terrainlayer   filter=lfs diff=lfs merge=lfs -text
+*.lighting       filter=lfs diff=lfs merge=lfs -text
+*.cubemap        filter=lfs diff=lfs merge=lfs -text
+# --- PARTICLE SYSTEMS / VFX
+*.vfx           filter=lfs diff=lfs merge=lfs -text
+*.vfxgraph      filter=lfs diff=lfs merge=lfs -text
+# --- UNITY PACKAGES & BUILDS
+*.unitypackage  filter=lfs diff=lfs merge=lfs -text
+*.assetbundle   filter=lfs diff=lfs merge=lfs -text
+*.bundle        filter=lfs diff=lfs merge=lfs -text
+*.apk           filter=lfs diff=lfs merge=lfs -text
+*.aab           filter=lfs diff=lfs merge=lfs -text
+*.exe           filter=lfs diff=lfs merge=lfs -text
+*.dll           filter=lfs diff=lfs merge=lfs -text
+# --- MISC BINARY ASSETS
+*.zip           filter=lfs diff=lfs merge=lfs -text
+*.7z            filter=lfs diff=lfs merge=lfs -text
+*.rar           filter=lfs diff=lfs merge=lfs -text
+*.dat           filter=lfs diff=lfs merge=lfs -text
+*.bytes         filter=lfs diff=lfs merge=lfs -text
+*.bin           filter=lfs diff=lfs merge=lfs -text
+*.npz           filter=lfs diff=lfs merge=lfs -text
+# --- PLATFORM SPECIFIC
+*.keystore      filter=lfs diff=lfs merge=lfs -text
+*.p12           filter=lfs diff=lfs merge=lfs -text
+*.mobileprovision filter=lfs diff=lfs merge=lfs -text
+*.plist         text
+*.gradle        text
+*.properties    text
+*.bat           text eol=crlf
+*.sh            text eol=lf
+# --- END OF FILE ---
+*.blend1 filter=lfs diff=lfs merge=lfs -text

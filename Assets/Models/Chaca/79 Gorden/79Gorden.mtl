@@ -1,0 +1,14 @@
+newmtl gorden
+bump 79Gorden_gorden_Normal.png
+map_Ke 79Gorden_gorden_Emission.png
+map_Kd 79Gorden_gorden_AlbedoTransparency.png
+Kd 0.6301887 0.6301887 0.6301887
+d 1
+
+newmtl lis
+bump 79Gorden_lis_Normal.png
+map_Ke 79Gorden_lis_Emission.png
+map_Kd 79Gorden_lis_AlbedoTransparency.png
+Kd 0.7056604 0.7056604 0.7056604
+d 1
+
